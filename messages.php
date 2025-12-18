@@ -1,5 +1,5 @@
 <?php
-
+//“message” means how objects communicate with each other
 // Person class represents an individual person
 class Person
 {
