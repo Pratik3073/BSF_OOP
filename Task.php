@@ -1,31 +1,31 @@
 <?php
 class Task {
     public $description;
-
+    public $description2;
     public $completed = false;
-    public function __construct($description)
-    {  
-        //Initializing data using a Constructor
-        //It sets initial values for the object
-        //$this refers to the current object
-         
-        $this->description = $description; 
-        
+
+    public function __construct($description, $description2)
+    {
+        // Initializing data using constructor arguments
+        $this->description  = $description;
+        $this->description2 = $description2;
     }
 
     public function run()
     {
+        // Mark task as completed
         $this->completed = true;
     }
 }
 
-$task = new Task("Learn OOP");
-$task1 = new Task("Fix CMS bugs");
+// Creating objects with TWO arguments
+$task  = new Task("Learn OOP", "Classes");
+$task1 = new Task("Fix CMS bugs", "Logic error");
 
-//new Task() creates an object
-//"Learn OOP" is passed to the constructor
-//Stored inside $task->description
-
+// Running method
 $task->run();
-var_dump($task->completed);
+
+// Output
+var_dump($task->description, $task->description2);
+var_dump($task1->description, $task1->description2);
 ?>
