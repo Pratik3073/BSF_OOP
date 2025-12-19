@@ -1,0 +1,11 @@
+{
+    "name": "bsf/oop",
+    "description": "OOP practice with namespaces",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {}
+}
