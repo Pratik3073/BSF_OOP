@@ -17,7 +17,7 @@
 
 
 <?php
-/*    abstract class shape
+    abstract class shape
     {
         protected $color;
        public function __construct($color = "red")
@@ -61,6 +61,6 @@ $circle = new circle;
 echo $circle->getArea();
 
 //new circle->getArea(); //we cannot assign like that  (new circle)->getArea();
-*/
+
 ?>
 

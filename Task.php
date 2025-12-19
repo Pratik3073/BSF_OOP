@@ -4,10 +4,10 @@ class Task {
     public $description2;
     public $completed = false;
 
-    public function __construct($description, $description2)
+    public function __construct($description, $description2) //Constructor Method
     {
         // Initializing data using constructor arguments
-        $this->description  = $description;
+        $this->description  = $description; //Refers to the current object.
         $this->description2 = $description2;
     }
 

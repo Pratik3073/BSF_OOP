@@ -30,7 +30,12 @@ class Person {
         return $this->age;
     }
 }
-
+class b extends Person
+{
+    public function printAge(){
+        echo $this->age;
+    }
+}
 
 $pratik = new Person("Pratik Kadam");
 

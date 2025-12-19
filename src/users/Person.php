@@ -10,3 +10,12 @@ class Person
         $this->name = $name;
     }
 }
+class a
+{
+    public function __construct(string $name){
+        $this->name = $name;
+    }
+}
+class a1{
+
+}
